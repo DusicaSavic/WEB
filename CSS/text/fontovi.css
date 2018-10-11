@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Kodchasan");
+@font-face {
+  font-family: "Mali";
+  src: url("Mali-Regular.ttf");
+}
+p {
+  font-family: "Mali", sans-serif;
+}
+
+h1 {
+  font-family: "Kodchasan", sans-serif;
+}
