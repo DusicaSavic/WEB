@@ -1,0 +1,20 @@
+#first {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+#second {
+  text-transform: lowercase;
+  text-decoration: line-through;
+}
+#jedan {
+  letter-spacing: 5px;
+  text-align: left;
+}
+
+#dva {
+  line-height: 200%;
+  text-align: right;
+}
+#tri {
+  text-align: center;
+}
