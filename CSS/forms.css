@@ -1,0 +1,25 @@
+form {
+    width: 400px;
+    margin: auto;
+    background: whitesmoke;
+    border-radius: 20px;
+    padding: 40px;
+}
+label{
+    display: block;
+    font-size: 30px;
+}
+input {
+    display: block;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+.submitButton {
+    margin: auto;
+    background: red;
+}
+

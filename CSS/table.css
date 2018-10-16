@@ -1,0 +1,21 @@
+table {
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+}
+
+table thead tr {
+    background-color: red;
+    color: white;
+}
+
+table tbody tr:nth-child(odd) {
+    background: grey;
+}
+table tbody tr td img{
+    height: 100px;
+    
+}
+table tbody tr:hover {
+    background: yellow;
+}
