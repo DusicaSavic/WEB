@@ -1,0 +1,36 @@
+table {
+  margin: 30px auto;
+  text-align: center;
+  border-collapse: collapse;
+  font-size: 20px;
+}
+th {
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  display: inline block;
+  height: 50px;
+}
+td {
+  padding: 10px 0px;
+  width: 200px;
+}
+tbody tr {
+  display: inline block;
+  height: 150px;
+}
+tbody tr:hover {
+  background-color: yellow;
+}
+
+.odd {
+  background-color: lightgray;
+}
+img {
+  height: 100px;
+  display: block;
+  margin: auto;
+}
+img:hover {
+  height: 130px;
+}

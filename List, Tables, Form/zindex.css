@@ -1,0 +1,18 @@
+div{
+    width: 200px;
+    height: 200px;
+}
+.red{
+    background: red;
+}
+.yellow{
+    background: peru;
+}
+.grey{
+    background: gray;
+}
+
+#relative div{
+    position: relative;
+
+}

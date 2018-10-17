@@ -1,0 +1,16 @@
+li{
+    display: inline;
+    text-decoration-style: none;
+    padding: 10px;
+    background-color:#ffbc00eb;
+    
+}
+.meni{
+    background-color: rgba(228, 216, 216, 0.35);
+    width: 500px;
+    height: 300px;
+    margin: auto;
+}
+.drop{
+    display: block;
+}

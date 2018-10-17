@@ -1,0 +1,43 @@
+.first {
+  list-style-type: circle;
+}
+ul {
+  list-style-type: square;
+}
+.secend {
+  list-style-type: lower-alpha;
+}
+ol {
+  list-style-type: upper-roman;
+}
+.markers {
+  list-style-image: url(https://www.w3schools.com/cssref/sqpurple.gif);
+  width: 200px;
+}
+.marks_inside {
+  list-style-image: url(https://www.w3schools.com/cssref/sqpurple.gif);
+  width: 200px;
+  list-style-position: inside;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#jedan {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+#dva {
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
