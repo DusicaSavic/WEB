@@ -1,0 +1,22 @@
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.first {
+    padding: 20px;
+    background-color: aquamarine;
+    height: 100px;
+}
+
+.second {
+    padding: 20px;
+    background-color: lightcoral;
+    height: 100px;
+}
+
+.third {
+    padding: 20px;
+    background-color: lightskyblue;
+    height: 100px;
+}

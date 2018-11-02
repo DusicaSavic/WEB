@@ -1,0 +1,17 @@
+/* ul:nth-of-type(2){
+    color:red;
+} */
+
+.second {
+background-color: aquamarine;
+}
+
+.bg-color {
+    background-color: aqua;
+}
+
+.transformCaseColor{
+    background-color: blueviolet;
+    text-transform: uppercase;
+}
+

@@ -1,0 +1,45 @@
+
+.parent {
+    max-width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-flow: row-reverse;
+    padding: 10px;
+}
+
+.parent-two {
+    display: flex;
+    flex-flow: column-reverse;
+    
+    flex-basis: 50%;
+}
+
+
+.first, .second, .third, .forth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first {
+    background-color: goldenrod;
+    flex: 1;
+}
+
+.second {
+    background-color: orange;
+    flex: 1;
+}
+
+.third {
+    background-color: rgb(58, 39, 4);
+    flex: 1;
+}
+
+.forth {
+    background-color: rgb(163, 76, 36);
+    flex-basis: 50%;
+}
