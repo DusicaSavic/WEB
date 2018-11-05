@@ -1,0 +1,22 @@
+div {
+    padding-top: 30px;
+    height: 100vh;
+}
+
+.button {
+    display: block;
+    margin: 0 auto;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.yellow {
+    background-color: greenyellow;
+}
+
+.green {
+    background-color: green;
+}
