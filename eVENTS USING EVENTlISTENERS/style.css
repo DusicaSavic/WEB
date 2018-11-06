@@ -1,0 +1,20 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+div {
+    background-image: url(./field.png);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+img {
+    width: 150px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.button{
+    position: absolute;
+  
+}
