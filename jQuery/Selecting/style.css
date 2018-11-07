@@ -1,0 +1,10 @@
+ul {
+    list-style-type: none;
+}
+
+.border {
+   border-bottom: 1px solid green; 
+}
+.bac-col{
+    background-color: cornflowerblue;
+}
