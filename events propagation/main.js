@@ -1,18 +1,40 @@
-var $allImages = document.querySelectorAll('img');
+var $div = document.querySelector('div');
+var $img = document.querySelector('img');
 
-
-function changeBorder(event) {
-
-    console.log(event.currentTarget.width);
-    if (event.currentTarget.width != 285) {
-        event.currentTarget.setAttribute('style', 'border:1px solid red')
+var pr;
+document.addEventListener('keydown', function (event) {
+    if (event.keyCode === 39) {
+        console.log('hello');
+        var x = 0;
+        pr = setInterval(function () {
+            x -= 1;
+            $div.style.backgroundPosition = x + 'px 0';
+        }, 100);
+        $img.removeAttribute('src');
+        $img.setAttribute('src', './images/mario_running.gif');
     }
-    else {
-        event.stopPropagation();
+})
+
+// document.addEventListener('keypress', function (event) {
+//     if (event.keyCode === 39) {
+//         console.log('hello');
+//         var x = 0;
+//         pr = setInterval(function(){
+//             x-=1;
+//             $div.style.backgroundPosition = x +'px 0';
+//         }, 100);
+//         $img.removeAttribute('src');
+//         $img.setAttribute('src', './images/mario_running.gif');
+//     }
+// })
+
+document.addEventListener('keyup', function (event) {
+    if (event.keyCode === 39) {
+        console.log('blaaa');
+        clearInterval(pr);
+        $img.removeAttribute('src');
+        $img.setAttribute('src', './images/mario.png');
+
     }
-}
+})
 
-for (var i = 0; i < $allImages.length; i++) {
-
-    $allImages[i].addEventListener('click', changeBorder);
-}
