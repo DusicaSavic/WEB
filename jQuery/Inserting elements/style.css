@@ -1,0 +1,18 @@
+.gallery {
+    width:70%;
+    margin: 0 auto;
+    background-color: beige;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.image {
+    margin: 5px;
+}
+
+.border {
+    border: 2px solid green;
+}
