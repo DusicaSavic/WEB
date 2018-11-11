@@ -1,0 +1,29 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  div {
+    height: 100vh;
+    background-image: url('./images/bg.jpg');
+    background-size: cover;
+    background-position: left bottom;
+    background-repeat: repeat-x;
+    position: relative;
+  }
+
+.mario-fix {
+    position: absolute;
+    height: 20vh;
+    bottom: 125px;
+    right:50%;
+}
+ 
+
+
+
+  
+
+  
