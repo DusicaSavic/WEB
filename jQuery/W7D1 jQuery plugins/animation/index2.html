@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            min-width: 100px;
+            min-height: 100px;
+            background: red;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box"></div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $('.box').on('click', function () {
+                $('.box').animate({
+                    top: 0,
+                    bottom: 0,
+                    left: 0,
+                    right: 0
+                }, 1000, 'swing', function () {
+                    $('.box').animate({
+                        width: '100px',
+                        height: '100px',
+                        top: 'auto',
+                        bottom: 0,
+                        left: 'auto',
+                        right: 0
+                    }, 1000);
+                });
+            })
+
+        })
+    </script>
+</body>
+
+</html>

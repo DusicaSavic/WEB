@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="minitoggle.css">
+</head>
+
+<body>
+
+
+    <div class="owl-carousel">
+        <div>
+            <img src="http://via.placeholder.com/400x300/green" alt="">
+        </div>
+        <div>
+            <img src="http://via.placeholder.com/400x300" alt="">
+        </div>
+        <div>
+            <img src="http://via.placeholder.com/400x300/red" alt="">
+        </div>
+        <div>
+            <img src="http://via.placeholder.com/400x300" alt="">
+        </div>
+        <div>
+            <img src="http://via.placeholder.com/400x300/ blue" alt="">
+        </div>
+    </div>
+
+    <div class="toggle"></div>
+    <div class="toggle"></div>
+    <div class="toggle"></div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/minitoggle.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                autoplay: false,
+                loop: true
+            });
+            $('.toggle').minitoggle({
+                on: false // or true
+            });
+        });
+    </script>
+
+
+    <!-- <script>
+        $(document).ready(function () {
+            $('.toggle').minitoggle({
+                on: false // or true
+            });
+            // $('.toggle').on("toggle", function (e) {
+            //     if (e.isActive)
+            //         $(".result").html("Oh, you turn me on.")
+            //     else
+            //         $(".result").html("No, you turn me off.")
+            // });
+        });
+    </script> -->
+
+</body>
+
+</html>
